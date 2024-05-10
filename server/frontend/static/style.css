@@ -124,3 +124,34 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-option {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-option h3 {
+    margin-top: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info p {
+    margin-right: 20px;
+}
+
+.contact-info p:last-child {
+    margin-right: 0;
+}
